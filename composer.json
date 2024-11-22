@@ -1,0 +1,19 @@
+{
+    "name": "lil/colorabstractor",
+    "description": "Simple example pulling colors out of an image",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Lil\\Colorabstractor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evelyn Guan"
+        }
+    ],
+    "require": {
+        "league/color-extractor": "^0.4.0",
+        "monolog/monolog": "1.17.0"
+    }
+}
